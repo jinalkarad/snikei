@@ -1,5 +1,5 @@
 
-
+export const dynamic = "force-dynamic";
 import { getProducts } from "@/lib/api"
 import HomeCategories from "@/components/categories"
 
