@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { getProducts } from "@/lib/api"
 import { ArrowRight } from "lucide-react"
+export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
   const products = await getProducts()
